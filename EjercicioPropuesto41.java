@@ -76,8 +76,6 @@ public class EjercicioPropuesto41 extends javax.swing.JFrame {
             }
         });
 
-        SalidaLista41.setText("jLabel5");
-
         Salida41.setText("jLabel6");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

@@ -84,13 +84,7 @@ public class EjercicioPropuesto40 extends javax.swing.JFrame {
 
         NumerosIngresados40.setText(" ");
 
-        SalidaLista40.setText("jLabel5");
-
         SalidaA40.setText("jLabel6");
-
-        SalidaB40.setText("jLabel5");
-
-        SalidaC40.setText("jLabel6");
 
         jLabel5.setText("Escribir en la caja de texto los números a operar, unicamente separados ");
 
@@ -200,13 +194,8 @@ public class EjercicioPropuesto40 extends javax.swing.JFrame {
 
     private void btnAgregar40ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregar40ActionPerformed
         String adicion = NumerosIngresados40.getText();        
-        int largo = 1;
-        for(int i = 0; i < adicion.length(); i++){
-            if (adicion[i] == "."){
-                largo++;
-            }
-        }
-        SalidaLista40.setText(String.valueOf(salida));
+        int largo = 1;       
+        
         
     }//GEN-LAST:event_btnAgregar40ActionPerformed
 
